@@ -13,6 +13,15 @@ def move(board, index, playerChar = "X")
   board[index] = playerChar
 end
 
+def already_taken(input_to_index)
+  if input_to_index== ' '
+    return false
+  else return true
+
+
 def valid_move?(board, index)
-if index => 0 && index =>8
+if already_taken(input_to_index) == false && index => 0 && index =>8
+  return true
+else return false
+  end
 end
