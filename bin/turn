@@ -1,2 +1,4 @@
 #!/usr/bin/env ruby
-display_board(board)
+require_relative "../lib/turn"
+
+board =
