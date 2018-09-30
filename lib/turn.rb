@@ -1,1 +1,1 @@
-puts display_board
+display.display_board
